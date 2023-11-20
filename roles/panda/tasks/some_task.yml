@@ -1,4 +1,4 @@
-- name: install htop
+- name: install htop, python3-pip
   package:
-    name: htop
+    name: htop, python3-pip
     state: present
