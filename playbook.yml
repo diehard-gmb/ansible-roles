@@ -1,0 +1,6 @@
+- name: Playbook
+  hosts: local
+  connection: local
+  become: true
+  roles:
+    - panda
